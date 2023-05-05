@@ -1,0 +1,57 @@
+# YOLOv5 🚀 by Ultralytics, AGPL-3.0 license
+# COCO128 dataset https://www.kaggle.com/ultralytics/coco128 (first 128 images from COCO train2017) by Ultralytics
+# Example usage: python train.py --data coco128.yaml
+# parent
+# ├── yolov5
+# └── datasets
+#     └── coco128  ← downloads here (7 MB)
+
+
+# Train/val/test sets as 1) dir: path/to/imgs, 2) file: path/to/imgs.txt, or 3) list: [path/to/imgs1, path/to/imgs2, ..]
+path: C:/Users/nayak/OneDrive/Documents/Github/fianl year/custom_set  # dataset root dir
+train: C:/Users/nayak/OneDrive/Documents/Github/fianl year/custom_set/train/images/  # train images (relative to 'path') 128 images
+val:  C:/Users/nayak/OneDrive/Documents/Github/fianl year/custom_set/valid/images/ # val images (relative to 'path') 128 images
+test:  # test images (optional)
+
+# Classes
+names:
+  0: airport
+  1: bumpy road
+  2: bus stop
+  3: children crossing
+  4: construction ahead
+  5: danger
+  6: falling rocks
+  7: gasoline
+  8: give way
+  9: hospital
+  10: keep left
+  11: keep right
+  12: left curve
+  13: left turn
+  14: narrow bridge
+  15: no cycle
+  16: no entry
+  17: no horn
+  18: no overtake
+  19: no parking
+  20: no stopping
+  21: no truck
+  22: no u turn
+  23: no vehicle
+  24: parking
+  25: pedestrian crossing
+  26: railway track
+  27: right curve
+  28: roundabout ahead
+  29: speed limit
+  30: stop
+  31: telephone
+  32: train station
+  33: turn right
+  34: u turn
+  35: warning
+
+
+# Download script/URL (optional)
+download: https://ultralytics.com/assets/coco128.zip
